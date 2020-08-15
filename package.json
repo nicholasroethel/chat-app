@@ -1,6 +1,5 @@
 {
-  "name" : "WebPongJS",
-  "description" : "Simple pong game",
+  "name": "js-fundamentals-test",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -11,17 +10,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": [
-    "express",
-    "socket.io",
-    "coffee-script",
-    "sockjs",
-    "sockjs-client",
-    "underscore"
-  ],
-  "devDependencies": [
-    "expect.js",
-    "mocha",
-    "should"
-  ]
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1",
+    "coffee-script": "^1.12.7",
+    "sockjs": "^0.3.21",
+    "sockjs-client": "^1.5.0",
+    "underscore": "^1.10.2"
+  }
 }
